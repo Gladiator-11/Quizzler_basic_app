@@ -52,7 +52,7 @@ class _QuizpageState extends State<Quizpage> {
         Alert(
           context: context,
           title: "Finished",
-          desc: "This Quiz is over press the button to give th equiz again.",
+          desc: "This Quiz is over press the button to give the quiz again.",
         ).show();
 
         quizBrain.reset();
